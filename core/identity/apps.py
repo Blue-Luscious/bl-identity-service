@@ -13,3 +13,7 @@ class IdentityConfig(AppConfig):
             identity_model,      
         )
         
+        from identity.admins import (
+            identity_admin,
+        )
+    
