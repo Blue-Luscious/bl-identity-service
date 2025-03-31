@@ -17,4 +17,6 @@ class IdentityModel(AbstractUser):
         date_joined (DateTime): Joined date.
     """
 
-    pass
+    class Meta:
+        verbose_name = "Identidad"
+        verbose_name_plural = "Identidades"
